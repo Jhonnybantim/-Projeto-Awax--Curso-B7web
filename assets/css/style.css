@@ -5,6 +5,10 @@
     margin: 0px; 
     box-sizing: border-box; 
 }
+body{
+    font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
 
 header{ 
     height: 100px;
@@ -20,7 +24,12 @@ header{
 }
 .logo{ 
     width: 100px;
+}
 
+.logoimg{
+    width: 80px;
+    height: 80px;
+    background-color:#b28756;
 }
 
 .menu{ 
@@ -28,10 +37,33 @@ header{
     display: flex;
     justify-content: flex-end;
  }
+ .menu ul,
+ .menu li {
+    list-style: none;
+ }
+ .menu ul{
+    display: flex;
+ }
 
-.logoimg{
-    width: 80px;
-    height: 80px;
-    background-color:#b28756;
+ .menu li a { 
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    padding-left:10px;
+    padding-right:10px;
+    height:100px;
+    display:flex;
+    align-items: center;
+    border-bottom: 5px solid black;
+ }
+ .menu li a:hover,
+ .menu .active a
+ { 
+    border-bottom: 5px solid #b28756;
 
-}
+ }
+ .menu .active a { 
+
+ }
+
