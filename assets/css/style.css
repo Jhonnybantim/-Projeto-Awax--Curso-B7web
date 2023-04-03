@@ -1,7 +1,18 @@
 @charset " UTF-8";
+
 body{
     padding: 0px;
-    margin: 0px;
-    background-color: green;
+    margin: 0px;  
+}
+
+header{ 
+    height: 100px;
+    background-color: black;
+}
+.header{ 
+    max-width: 1140px;
+    height: 100px;
+    background-color: aqua;
+    margin: auto;
 
 }
