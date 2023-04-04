@@ -85,3 +85,9 @@ header{
     background-color: rgba(0, 0, 0, 0.8);
  }
 
+.banner .slidearea{ 
+   display: flex;
+   height: 100%;
+   align-items: center;
+
+}
