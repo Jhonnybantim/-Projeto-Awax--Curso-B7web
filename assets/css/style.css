@@ -181,18 +181,19 @@ header {
 .default .section-body {
    max-width: 1140px;
    margin: auto;
-   height: 100px;
-   background-color: #ccc;
-}
+   }
 .default.light{ 
    background-color: #f7f7f7;
 }
-.default.light .section-tittle{ 
+.default.light .section-tittle,
+.default.light .section-body{ 
    color: black;
 }
 .default.dark{ 
    background-color: black;
 }
-.default.dark .section-tittle{ 
+.default.dark .section-tittle,
+.default.dark .section-body{ 
    color: white;
 }
+
