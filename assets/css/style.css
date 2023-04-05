@@ -9,6 +9,7 @@
 body {
    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
    font-size: 13px;
+   overflow-x:hidden;
 }
 
 header {
@@ -147,7 +148,7 @@ header {
    margin-left:5px;
    cursor: pointer;
 }
-
 .banner .pointer.active{ 
    background-color: #b28756;
 }
+.section 
