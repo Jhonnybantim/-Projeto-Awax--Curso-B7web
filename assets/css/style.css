@@ -197,3 +197,18 @@ header {
    color: white;
 }
 
+
+
+/*CSS DE ÁREAS ESPECIFICAS */
+.saction-aboutus{
+   display:flex;
+   flex-direction: row;
+}
+.section-aboutus--left
+{
+   flex:1; 
+}
+.section-aboutus--right{
+   width:300px; 
+   background-color: red;
+}
