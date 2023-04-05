@@ -204,13 +204,6 @@ header {
 
 
 
-
-
-
-
-
-
-
 /*CSS DE ÁREAS ESPECIFICAS */
 .saction-aboutus {
    display: flex;
@@ -233,4 +226,28 @@ header {
 .section-aboutus--left p { 
    font-size: 14px;
    line-height: 25px;
+}
+
+.section-services{ 
+   display: flex;
+}
+.section-service{
+   flex: 1;
+   text-align: center;
+   border-right: 1px solid #333;
+   padding: 15px;
+}
+.section-service:first-child{
+   border-left: 1px solid #333; 
+
+}
+.section-service h4{ 
+   margin-top: 20px;
+   text-transform: uppercase;
+   font-size: 18pz;
+}
+.section-service  p {
+   margin: 10px;
+   font-size: 13px;
+   color: #999;
 }
