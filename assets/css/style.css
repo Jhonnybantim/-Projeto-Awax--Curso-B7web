@@ -230,3 +230,7 @@ header {
    width: 480px;
    box-shadow: 0px 6px 10px #333;
 }
+.section-aboutus--left p { 
+   font-size: 14px;
+   line-height: 25px;
+}
