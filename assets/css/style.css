@@ -288,6 +288,34 @@ header {
    border-bottom: 3px solid #b28756;
 
   }
+.section-projectes--photo{ 
+   width: 100vw;
+   max-width: 1140px;
+   margin-top: 20px;
+   background-color: red;
+   display:flex;
+   flex-wrap: wrap;
+   justify-content:center;
+
+}
+.section-projectes--photos{
+   width: 280px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
