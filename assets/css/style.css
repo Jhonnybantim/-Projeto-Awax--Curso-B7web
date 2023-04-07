@@ -288,7 +288,7 @@ header {
    border-bottom: 3px solid #b28756;
 
   }
-.section-projectes--photo{ 
+.section-projects--photos{ 
    width: 100vw;
    max-width: 1140px;
    margin-top: 20px;
@@ -298,8 +298,24 @@ header {
    justify-content:center;
 
 }
-.section-projectes--photos{
+.section-projects--photo{
    width: 280px;
+}
+
+
+
+
+.section-projectes--photoarea{
+   margin: 10px; 
+   width: 260px;
+   height: 160px;
+}
+.section-projectes--photoarea img{
+   width: inherit; 
+   height: inherit;
+}
+.section-projectes--photoinfo{
+   display: none;
 }
 
 
