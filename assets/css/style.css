@@ -302,8 +302,6 @@ header {
 }
 
 
-
-
 .section-projectes--photoarea{
    margin: 10px; 
    width: 260px;
@@ -313,9 +311,27 @@ header {
    width: inherit; 
    height: inherit;
 }
-.section-projectes--photoinfo{
+.section-projectes--phoinfo{
+   position: absolute;
+   background-color: rgb(0, 0, 0, 0.5);
+   width: inherit; 
+   height: inherit;
    display: none;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: white;
 }
+.section-projectes--phoinfo h5{
+   font-size: 19px;
+   font-weight: 600;
+}
+
+.section-projectes--photoarea:hover .section-projectes--phoinfo { 
+   display: flex;
+
+}
+
 
 
 
