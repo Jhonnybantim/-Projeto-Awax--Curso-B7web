@@ -451,9 +451,7 @@ header {
    background-color: #b28756;
 }
 
-.saction-slide{
-   justify-content: center;
-}
+
 .saction-clients {
    justify-content: center;
    display: flex;
@@ -473,7 +471,25 @@ header {
    margin-top: 30px;
 
 }
+.saction-clients-aspas{ 
+   margin-top: 10px;
+   text-align: center;
+  }
 
+.saction-clients-aspas p {
+   font-size: 45px;
+   color: #333;
+}
+.saction-clients--texto{
+   text-align: center;
+}
+.areapontos-clientes {
+   margin-top: 30px;
+   height: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
 
 
 
