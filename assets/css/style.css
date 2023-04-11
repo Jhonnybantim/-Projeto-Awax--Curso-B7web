@@ -451,6 +451,30 @@ header {
    background-color: #b28756;
 }
 
+.saction-slide{
+   justify-content: center;
+}
+.saction-clients {
+   justify-content: center;
+   display: flex;
+   flex-direction: row;
+   text-align: center;
+}
+.section-avatar--clients{ 
+   width: 100px;
+   height: auto;
+   margin: auto;
+  
+}
+.section-clients--name{
+  
+   font-weight: 600;
+   font-size: 17px;
+   margin-top: 30px;
+
+}
+
+
 
 
 
