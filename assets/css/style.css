@@ -519,8 +519,45 @@ header {
 
 .area-icones .icone{ 
    flex: 1;
-   margin: 45px;
+   margin: 10px;
    text-align: center;
+}
+.area-icones .icone img{
+   width: 75px;
+   height: auto;
+}
+
+.area-tabela--precos{
+   justify-content: center;
+   align-items: center;
+    display: flex;
+}
+
+.area-tabela--precos .preco{
+   padding: 20px; 
+   max-width: 250px;
+   height: auto;
+   margin: 10px;
+   flex:1;
+   background-color: white;
+   text-align: center;
+}
+.area-tabela--precos  {
+   margin: 10px;
+   
+}
+.area-tabela--precos a {
+   padding: 5px 30px ;
+   margin-top: 45px;
+   font-size: 15px;
+   font-weight: 600;
+   text-decoration: none;
+   background-color: black;
+   color: white;
+   border-radius: 15px;
+}
+.area-tabela--precos .butonblack{ 
+   margin-top: 10px;
 }
 
 
