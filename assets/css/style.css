@@ -483,13 +483,12 @@ header {
 .saction-clients--texto{
    text-align: center;
 }
-.areapontos-clientes {
-   margin-top: 30px;
-   height: 20px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+
+.sliders-pointers{ 
+   color: rgb(153, 63, 51);
+
 }
+
 
 
 
