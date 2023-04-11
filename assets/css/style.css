@@ -472,25 +472,56 @@ header {
 
 }
 .saction-clients-aspas{ 
-   margin-top: 10px;
+   margin:20px;
    text-align: center;
   }
 
-.saction-clients-aspas p {
-   font-size: 45px;
-   color: #333;
-}
+
 .saction-clients--texto{
    text-align: center;
 }
-
-.sliders-pointers{ 
-   color: rgb(153, 63, 51);
-
+.areapontos-clientes {
+   margin-top: 30px;
+   height: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
+.areapontos {
+   margin-top: 30px;
+   height: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.areapontos .pointer.active {
+   background-color: #b28756;
+}
 
+.areapontos .pointer {
+   padding: 5px;
+   width: 25x;
+   height: 15px;
+   border: 2px solid #b28756;
+   border-radius: 8px;
+   margin-right: 5px;
+   margin-left: 5px;
+   cursor: pointer;
+}
 
+.area-icones{
+   padding-left: 10px;
+   padding-right: 10px;
+   display: flex;
+   justify-content: center;
+ }
+
+.area-icones .icone{ 
+   flex: 1;
+   margin: 45px;
+   text-align: center;
+}
 
 
 
