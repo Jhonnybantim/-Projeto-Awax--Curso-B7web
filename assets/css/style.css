@@ -543,7 +543,7 @@ header {
    text-align: center;
 }
 .area-tabela--precos  {
-   margin: 10px;
+   margin: -20px;
    
 }
 .area-tabela--precos a {
@@ -558,6 +558,74 @@ header {
 }
 .area-tabela--precos .butonblack{ 
    margin-top: 10px;
+}
+
+.section-area--premium{ 
+   padding: 20px;
+}
+
+
+.section-area--premium .section-tittle,
+.section-area--premium .section-desc {
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: 600;
+}
+
+.section-area--premium .section-tittle {
+   font-size: 20px;
+}
+
+.section-area--premium .section-desc {
+   font-size: 13px;
+   color: #ccc;
+   margin-top: 10px;
+   margin-bottom: 40px;
+}
+.arearight-left-premium{
+   margin-left: 55px;
+   margin-top: 35px;
+   justify-content: center;
+   display: flex;
+   border-bottom: 1px solid #999;
+   max-width: 1050px;
+   
+}
+.premium-left{
+   font-size: 12PX;
+   text-align: left;
+   display: flex;
+   flex-direction: column;
+}
+.premium-left .coisas-premium{ 
+   flex: 1;
+   margin: 15px;
+   line-height: 22px;
+
+}
+.premium-left .coisas-premium h1{
+   color: black;
+   font-weight: 600;
+   
+}
+.premium-right{ 
+   margin-right: 35px;
+}
+
+.premium-meio .check-premiu1 img,
+.premium-meio .check-premiu2 img,
+.premium-meio .check-premiu3 img{ 
+   width: 28px;
+   
+}
+.premium-meio .check-premiu1 img{ 
+   margin-top: 10px;
+}
+.premium-meio .check-premiu2 img{ 
+   margin-top: 135px;
+}
+.premium-meio .check-premiu3 img{ 
+   margin-top: 75px;
 }
 
 
