@@ -480,13 +480,7 @@ header {
 .saction-clients--texto{
    text-align: center;
 }
-.areapontos-clientes {
-   margin-top: 30px;
-   height: 20px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
+
 
 .areapontos {
    margin-top: 30px;
@@ -561,9 +555,13 @@ header {
 }
 
 .section-area--premium{ 
-   padding: 20px;
+   padding: 40px;
 }
 
+figure img{ 
+   width: 350px;
+   margin-bottom: 25px;
+}
 
 .section-area--premium .section-tittle,
 .section-area--premium .section-desc {
@@ -596,6 +594,8 @@ header {
    text-align: left;
    display: flex;
    flex-direction: column;
+   margin-bottom: 28px;
+
 }
 .premium-left .coisas-premium{ 
    flex: 1;
@@ -609,7 +609,7 @@ header {
    
 }
 .premium-right{ 
-   margin-right: 35px;
+   margin-right: 15px;
 }
 
 .premium-meio .check-premiu1 img,
@@ -630,6 +630,28 @@ header {
 
 
 
+.section-area--premium .sliders-pointers {
+   margin-top: 30px;
+   height: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.section-area--premium .pointer {
+   padding: 5px;
+   width: 25x;
+   height: 15px;
+   border: 2px solid #b28756;
+   border-radius: 8px;
+   margin-right: 5px;
+   margin-left: 5px;
+   cursor: pointer;
+}
+
+.section-area--premium .pointer.active {
+   background-color: #b28756;
+}
 
 
 
