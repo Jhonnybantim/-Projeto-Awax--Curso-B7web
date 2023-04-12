@@ -720,11 +720,21 @@ figure img{
   
 }
 .social-icone .icone-twitter{
-   padding: 3px; 
+   padding: 10px; 
    background-color:#00acee;
    border-radius: 25px
 
 }
+.social-icone .icone-linkdin{
+    
+   background-color:#0e76a8;
+   border-radius: 25px
+
+}
+
+
+
+
 
 
 
