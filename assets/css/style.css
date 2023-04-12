@@ -504,6 +504,7 @@ header {
    cursor: pointer;
 }
 
+/*AREA DOS ICONES EMPRESAS PARCEIRAS*/
 .area-icones{
    padding-left: 10px;
    padding-right: 10px;
@@ -520,6 +521,8 @@ header {
    width: 75px;
    height: auto;
 }
+
+/*AREA DOS PREÇOS*/
 
 .area-tabela--precos{
    justify-content: center;
@@ -554,6 +557,8 @@ header {
    margin-top: 10px;
 }
 
+
+/*AREA DAS COISAS PREMIUM*/
 .section-area--premium{ 
    padding: 40px;
 }
@@ -654,7 +659,7 @@ figure img{
 }
 
 
-/*ARE DE PREÇOS*/
+/*AREa DE PREÇOS*/
 
 .section-precos {
    display: flex;
@@ -679,8 +684,6 @@ figure img{
    
 }
 
-
-
 .section-preco h4 {
    margin-top: 20px;
    text-transform: uppercase;
@@ -693,6 +696,35 @@ figure img{
    color: #999;
 }
 
+
+/*AREA DAS REDES SOCIAIS*/
+
+
+.section-redessociais{
+   padding-left: 10px;
+   padding-right: 10px;
+   display: flex;
+   justify-content: center;
+   padding-bottom: 250px;
+ }
+
+.social-icone{ 
+   margin-top: 25px;
+   max-width: 70px;
+   flex: 1;
+   text-align: center;
+   justify-content: center;
+}
+.social-icone img{
+   width: 35px;
+  
+}
+.social-icone .icone-twitter{
+   padding: 3px; 
+   background-color:#00acee;
+   border-radius: 25px
+
+}
 
 
 
