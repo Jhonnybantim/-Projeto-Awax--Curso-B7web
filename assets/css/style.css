@@ -661,7 +661,16 @@ figure img{
 }
 
 .section-preco h1{ 
+   font-size: 45px;
    color: #b28756;
+}
+
+.preco-traco{ 
+   background: #b28756;
+   margin: auto;
+   height: 2px;
+   width: 30px;
+   
 }
 .section-preco {
    flex: 1;
@@ -669,6 +678,7 @@ figure img{
    padding: 15px;
    
 }
+
 
 
 .section-preco h4 {
