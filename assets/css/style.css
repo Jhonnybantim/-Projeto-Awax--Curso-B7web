@@ -291,6 +291,7 @@ header {
    cursor: pointer;
 
 }
+
 .section-projetcts--filters li:first-child {
    border-left: 0;
 }
@@ -414,40 +415,45 @@ header {
 .section-team-area .pointer.active {
    background-color: #b28756;
 }
-.section-team--avatar { 
-      width: 150px;
-      height: auto;
+
+.section-team--avatar {
+   width: 150px;
+   height: auto;
 
 }
-.section-team--name{
-   text-transform: uppercase; 
+
+.section-team--name {
+   text-transform: uppercase;
    font-weight: 600;
    font-size: 17px;
    margin-top: 30px;
 
 }
-.secetion-team--role{ 
+
+.secetion-team--role {
    font-size: 14px;
    color: #999;
    margin-top: 5px;
 
 }
+
 .section-team--social {
    display: flex;
    margin-top: 20px;
-}  
-  
-.section-team--social a { 
+}
+
+.section-team--social a {
    display: inline-flex;
    justify-content: center;
    align-items: center;
    width: 25px;
    height: 25px;
-   background-color:#ccc ;
+   background-color: #ccc;
    border-radius: 13px;
    margin-right: 10px;
 }
-.section-team--social a:hover{ 
+
+.section-team--social a:hover {
    background-color: #b28756;
 }
 
@@ -458,26 +464,29 @@ header {
    flex-direction: row;
    text-align: center;
 }
-.section-avatar--clients{ 
+
+.section-avatar--clients {
    width: 100px;
    height: auto;
    margin: auto;
-  
+
 }
-.section-clients--name{
-  
+
+.section-clients--name {
+
    font-weight: 600;
    font-size: 17px;
    margin-top: 30px;
 
 }
-.saction-clients-aspas{ 
-   margin:20px;
+
+.saction-clients-aspas {
+   margin: 20px;
    text-align: center;
-  }
+}
 
 
-.saction-clients--texto{
+.saction-clients--texto {
    text-align: center;
 }
 
@@ -489,6 +498,7 @@ header {
    justify-content: center;
    align-items: center;
 }
+
 .areapontos .pointer.active {
    background-color: #b28756;
 }
@@ -505,46 +515,49 @@ header {
 }
 
 /*AREA DOS ICONES EMPRESAS PARCEIRAS*/
-.area-icones{
+.area-icones {
    padding-left: 10px;
    padding-right: 10px;
    display: flex;
    justify-content: center;
- }
+}
 
-.area-icones .icone{ 
+.area-icones .icone {
    flex: 1;
    margin: 10px;
    text-align: center;
 }
-.area-icones .icone img{
+
+.area-icones .icone img {
    width: 75px;
    height: auto;
 }
 
 /*AREA DOS PREÇOS*/
 
-.area-tabela--precos{
+.area-tabela--precos {
    justify-content: center;
    align-items: center;
-    display: flex;
+   display: flex;
 }
 
-.area-tabela--precos .preco{
-   padding: 20px; 
+.area-tabela--precos .preco {
+   padding: 20px;
    max-width: 250px;
    height: auto;
    margin: 10px;
-   flex:1;
+   flex: 1;
    background-color: white;
    text-align: center;
 }
-.area-tabela--precos  {
+
+.area-tabela--precos {
    margin: -20px;
-   
+
 }
+
 .area-tabela--precos a {
-   padding: 5px 30px ;
+   padding: 5px 30px;
    margin-top: 45px;
    font-size: 15px;
    font-weight: 600;
@@ -553,17 +566,18 @@ header {
    color: white;
    border-radius: 15px;
 }
-.area-tabela--precos .butonblack{ 
+
+.area-tabela--precos .butonblack {
    margin-top: 10px;
 }
 
 
 /*AREA DAS COISAS PREMIUM*/
-.section-area--premium{ 
+.section-area--premium {
    padding: 40px;
 }
 
-figure img{ 
+figure img {
    width: 350px;
    margin-bottom: 25px;
 }
@@ -585,16 +599,18 @@ figure img{
    margin-top: 10px;
    margin-bottom: 40px;
 }
-.arearight-left-premium{
+
+.arearight-left-premium {
    margin-left: 55px;
    margin-top: 35px;
    justify-content: center;
    display: flex;
    border-bottom: 1px solid #999;
    max-width: 1050px;
-   
+
 }
-.premium-left{
+
+.premium-left {
    font-size: 12PX;
    text-align: left;
    display: flex;
@@ -602,34 +618,40 @@ figure img{
    margin-bottom: 28px;
 
 }
-.premium-left .coisas-premium{ 
+
+.premium-left .coisas-premium {
    flex: 1;
    margin: 15px;
    line-height: 22px;
 
 }
-.premium-left .coisas-premium h1{
+
+.premium-left .coisas-premium h1 {
    color: black;
    font-weight: 600;
-   
+
 }
-.premium-right{ 
+
+.premium-right {
    margin-right: 15px;
 }
 
 .premium-meio .check-premiu1 img,
 .premium-meio .check-premiu2 img,
-.premium-meio .check-premiu3 img{ 
+.premium-meio .check-premiu3 img {
    width: 28px;
-   
+
 }
-.premium-meio .check-premiu1 img{ 
+
+.premium-meio .check-premiu1 img {
    margin-top: 10px;
 }
-.premium-meio .check-premiu2 img{ 
+
+.premium-meio .check-premiu2 img {
    margin-top: 135px;
 }
-.premium-meio .check-premiu3 img{ 
+
+.premium-meio .check-premiu3 img {
    margin-top: 75px;
 }
 
@@ -665,23 +687,24 @@ figure img{
    display: flex;
 }
 
-.section-preco h1{ 
+.section-preco h1 {
    font-size: 45px;
    color: #b28756;
 }
 
-.preco-traco{ 
+.preco-traco {
    background: #b28756;
    margin: auto;
    height: 2px;
    width: 30px;
-   
+
 }
+
 .section-preco {
    flex: 1;
    text-align: center;
    padding: 15px;
-   
+
 }
 
 .section-preco h4 {
@@ -700,52 +723,102 @@ figure img{
 /*AREA DAS REDES SOCIAIS*/
 
 
-.section-redessociais{
+.section-redessociais {
    padding-left: 10px;
    padding-right: 10px;
    display: flex;
    justify-content: center;
-   padding-bottom: 250px;
- }
+   padding-bottom: 40px;
+}
 
-.social-icone{ 
+.social-icone {
    margin-top: 25px;
    max-width: 70px;
    flex: 1;
    text-align: center;
    justify-content: center;
 }
-.social-icone img{
+
+.social-share {
+   display: flex;
+   text-align: center;
+   height: 34px;
+   padding: 10px;
+   border-radius: 100px;
+   margin-top: 21px;
+
+}
+
+.social-share img {
+   width: 44px;
+   height: 40px;
+}
+
+.social-share p {
+   margin-top: 12px;
+   margin-left: 7px;
+}
+
+
+
+
+.social-twter {
+   text-align: center;
+   height: 34px;
+   padding: 10px;
+   background-color: #00acee;
+   border-radius: 100px;
+   margin-top: 35px;
+}
+
+
+.social-linkdin {
+   text-align: center;
+   height: 34px;
+   padding: 10px;
+   background-color: #00acee;
+   background-color: #0e76a8;
+   border-radius: 100px;
+   margin-top: 35px;
+
+}
+
+.social-google {
+   height: 34px;
+   padding: 10px;
+   background-color: #a30404;
+   border-radius: 100px;
+   margin-top: 35px;
+}
+
+.social-facebook {
+   justify-content: center;
    width: 35px;
-  
-}
-.social-icone .icone-twitter{
-   padding: 10px; 
-   background-color:#00acee;
-   border-radius: 25px
-
-}
-.social-icone .icone-linkdin{
-    
-   background-color:#0e76a8;
-   border-radius: 25px
-
+   height: 35px;
+   padding: 10px;
+   background-color: #3b5998;
+   border-radius: 100px;
+   margin-top: 35px;
 }
 
+.social-facebook img {
+   margin-left: 3px;
+}
+
+.social-pinterest {
+   height: 34px;
+   padding: 10px;
+   background-color: #c8232c;
+   border-radius: 100px;
+   margin-top: 35px;
+}
 
 
 
 
+/*AREA DO FORMULARIO*/
 
-
-
-
-
-
-
-
-
-
-
-
-
+.section-formulario {
+   height: 250px;
+   background-color: #00acee;
+}
