@@ -830,6 +830,7 @@ figure img {
 /*AREA DO FORMULARIO*/
 
 .section-formulario {
+   justify-content: center;
    padding-top: 25px;
    height: 250px;
    background-color: #eee;
@@ -852,4 +853,11 @@ figure img {
    color: #ccc;
    margin-top: 10px;
    margin-bottom: 40px;
+}
+
+.section-areaformulario{
+   width: auto;
+ 
+   justify-content: center; 
+
 }
