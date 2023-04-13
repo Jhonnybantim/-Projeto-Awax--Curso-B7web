@@ -725,10 +725,10 @@ figure img {
 
 .section-redessociais {
    padding-left: 10px;
-   padding-right: 200px;
+   padding-right: 0px;
    display: flex;
    justify-content: center;
-   padding-bottom: 40px;
+   padding-bottom: 15px;
 }
 
 .social-icone {
@@ -814,8 +814,11 @@ figure img {
 }
 
 .textoredessociais{ 
-   margin-top: 25px;
+   margin-right: 28px;
+   margin-left: 3px;
+   margin-top: 44px;
 }
+
 
 
 /*AREA DO FORMULARIO*/
