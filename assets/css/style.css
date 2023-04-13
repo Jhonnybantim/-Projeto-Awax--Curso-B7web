@@ -725,7 +725,7 @@ figure img {
 
 .section-redessociais {
    padding-left: 10px;
-   padding-right: 10px;
+   padding-right: 200px;
    display: flex;
    justify-content: center;
    padding-bottom: 40px;
@@ -813,7 +813,9 @@ figure img {
    margin-top: 35px;
 }
 
-
+.textoredessociais{ 
+   margin-top: 25px;
+}
 
 
 /*AREA DO FORMULARIO*/
