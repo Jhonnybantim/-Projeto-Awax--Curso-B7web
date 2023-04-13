@@ -731,6 +731,7 @@ figure img {
 }
 
 .social-icone {
+   cursor: pointer;
    margin-top: 25px;
    max-width: 70px;
    flex: 1;
@@ -739,6 +740,7 @@ figure img {
 }
 
 .social-share {
+   cursor: pointer;
    display: flex;
    text-align: center;
    height: 34px;
@@ -762,6 +764,7 @@ figure img {
 
 
 .social-twter {
+   cursor: pointer;
    text-align: center;
    height: 34px;
    padding: 10px;
@@ -772,6 +775,7 @@ figure img {
 
 
 .social-linkdin {
+   cursor: pointer;
    text-align: center;
    height: 34px;
    padding: 10px;
@@ -783,6 +787,7 @@ figure img {
 }
 
 .social-google {
+   cursor: pointer;
    height: 34px;
    padding: 10px;
    background-color: #a30404;
@@ -791,6 +796,7 @@ figure img {
 }
 
 .social-facebook {
+   cursor: pointer;
    justify-content: center;
    width: 35px;
    height: 35px;
@@ -805,6 +811,7 @@ figure img {
 }
 
 .social-pinterest {
+   cursor: pointer;
    height: 34px;
    padding: 10px;
    background-color: #c8232c;
@@ -823,6 +830,26 @@ figure img {
 /*AREA DO FORMULARIO*/
 
 .section-formulario {
+   padding-top: 25px;
    height: 250px;
-   background-color: #00acee;
+   background-color: #eee;
+}
+
+.section-formulario  .section-tittle,
+.section-formulario .section-desc {
+   margin-top: 25px;
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: 600;
+}
+.section-formulario .section-tittle {
+   font-size: 20px;
+   font-weight: 600;
+}
+
+.section-formulario .section-desc {
+   font-size: 13px;
+   color: #ccc;
+   margin-top: 10px;
+   margin-bottom: 40px;
 }
