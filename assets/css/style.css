@@ -832,7 +832,7 @@ figure img {
 .section-formulario {
    justify-content: center;
    padding-top: 25px;
-   height: 250px;
+   height: auto;
    background-color: #eee;
 }
 
@@ -854,10 +854,40 @@ figure img {
    margin-top: 10px;
    margin-bottom: 40px;
 }
-
-.section-areaformulario{
-   width: auto;
- 
-   justify-content: center; 
+.body-formulario{ 
+   width: 100vw;
+  text-align: center;
+  height: 350px;
 
 }
+.section-areaformulario{
+   max-width: 450px;
+   margin: auto;
+   text-align: center;
+}
+
+
+.section-contact--split {
+   display: flex;
+}
+
+.section-contact--split input:first-child {
+   margin-right: 20px;
+}
+.section-contact--split input[type=text], .section-contact--split input[type=email], .section-areaformulario textarea {
+   display: block;
+   width: 100%;
+   height: 40px;
+   border: 0;
+   background: transparent;
+   border-bottom: 1px solid #CCC;
+   outline: 0;
+   margin-top: 10px;
+}
+
+.section-areaformulario textarea { 
+   height: 100px;
+   resize: none;
+}
+
+
