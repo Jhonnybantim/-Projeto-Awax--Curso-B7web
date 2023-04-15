@@ -926,17 +926,23 @@ figure img {
    display: flex;
 
 }
-.section-map--info-item img{ 
+.section-map--info-img{ 
    width: 30px;
    height: 30px;
-   display: inline-block;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
    padding: 5px;
    background-color: #ccc;
+   border-radius: 15px;
 
 }
 
 
-
+.section-map--info-img img { 
+   width: 20px;
+   height: auto;
+}
 
 
 
