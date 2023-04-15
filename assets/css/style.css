@@ -926,6 +926,7 @@ figure img {
    display: flex;
    align-items: center;
    color: #999;
+   margin-bottom: 10px;
 }
 .section-map--info-img{ 
    width: 30px;
@@ -940,9 +941,8 @@ figure img {
 
 }
 
-
 .section-map--info-img img { 
-   width: 20px;
+   width: 15px;
    height: auto;
 }
 
