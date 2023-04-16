@@ -819,7 +819,7 @@ figure img {
    margin-top: 35px;
 }
 
-.textoredessociais{ 
+.textoredessociais {
    margin-right: 28px;
    margin-left: 3px;
    margin-top: 44px;
@@ -836,13 +836,14 @@ figure img {
    background-color: #eee;
 }
 
-.section-formulario  .section-tittle,
+.section-formulario .section-tittle,
 .section-formulario .section-desc {
    margin-top: 25px;
    text-align: center;
    text-transform: uppercase;
    font-weight: 600;
 }
+
 .section-formulario .section-tittle {
    font-size: 20px;
    font-weight: 600;
@@ -854,13 +855,15 @@ figure img {
    margin-top: 10px;
    margin-bottom: 40px;
 }
-.body-formulario{ 
+
+.body-formulario {
    width: 100vw;
-  text-align: center;
-  height: 350px;
+   text-align: center;
+   height: 350px;
 
 }
-.section-areaformulario{
+
+.section-areaformulario {
    max-width: 450px;
    margin: auto;
    text-align: center;
@@ -874,7 +877,10 @@ figure img {
 .section-contact--split input:first-child {
    margin-right: 20px;
 }
-.section-contact--split input[type=text], .section-contact--split input[type=email], .section-areaformulario textarea {
+
+.section-contact--split input[type=text],
+.section-contact--split input[type=email],
+.section-areaformulario textarea {
    display: block;
    width: 100%;
    height: 40px;
@@ -885,11 +891,12 @@ figure img {
    margin-top: 10px;
 }
 
-.section-areaformulario textarea { 
+.section-areaformulario textarea {
    height: 100px;
    resize: none;
 }
-.section-contact--subject input[type=text] { 
+
+.section-contact--subject input[type=text] {
    display: block;
    width: 100%;
    height: 40px;
@@ -900,35 +907,40 @@ figure img {
    margin-top: 10px;
 
 }
-/*AREA DO MAPA*/ 
-.section-mapa{ 
+
+/*AREA DO MAPA*/
+.section-mapa {
    background-image: url('../images/mapa.jpg');
    background-size: cover;
-   background-position:center ;
+   background-position: center;
    padding-top: 30px;
    padding-bottom: 30px;
-  
+
 }
-.section-map--area{ 
+
+.section-map--area {
    margin: auto;
    width: 100vw;
    max-width: 1140px;
 
 }
-.section-map--info{ 
+
+.section-map--info {
    width: 50%;
    padding: 30px;
    background-color: white;
    color: black;
 
 }
-.section-map--info-item{
+
+.section-map--info-item {
    display: flex;
    align-items: center;
    color: #999;
    margin-bottom: 10px;
 }
-.section-map--info-img{ 
+
+.section-map--info-img {
    width: 30px;
    height: 30px;
    display: inline-flex;
@@ -941,33 +953,31 @@ figure img {
 
 }
 
-.section-map--info-img img { 
+.section-map--info-img img {
    width: 15px;
    height: auto;
 }
 
 /*AREA DO RODAPE*/
 
-
-
-footer{
+footer {
    background-color: black;
    padding: 20px;
 }
 
-
-.rodape-body{
+.rodape-body {
    max-width: 1140px;
    margin: auto;
    color: #FFF;
    display: flex;
 }
 
-.rodape-area1{ 
+.rodape-area1 {
    display: flex;
-   flex:1;
+   flex: 1;
 }
-.rodape-area{
+
+.rodape-area {
    flex: 1;
    color: #999;
    line-height: 20px;
@@ -975,7 +985,6 @@ footer{
    padding: 0 10px 10px 20px;
    text-align: justify;
 }
-
 
 .rodape-area form {
    flex: 1;
@@ -985,7 +994,7 @@ footer{
 }
 
 
-/*ESTA AREA É DOS ICONES DA REDE SOCIAL DO FOOTER */ 
+/*ESTA AREA É DOS ICONES DA REDE SOCIAL DO FOOTER */
 .section-redessociais {
    padding-left: 10px;
    display: flex;
@@ -999,7 +1008,7 @@ footer{
    text-align: center;
    height: 34px;
    padding: 10px;
-   background-color:#333;
+   background-color: #333;
    border-radius: 100px;
    margin-top: 5px;
    margin-right: 5px;
@@ -1055,14 +1064,31 @@ footer{
 }
 
 
-.rodape-area input{    
+.rodape-area input {
    width: 100%;
-height: 40px;
-border: 0;
-background: transparent;
-border-bottom: 1px solid #CCC;
-outline: 0;
-color: #FFF;
-font-size: 14px;
-text-align: center;
+   height: 40px;
+   border: 0;
+   background: transparent;
+   border-bottom: 1px solid #CCC;
+   outline: 0;
+   color: #FFF;
+   font-size: 14px;
+   text-align: center;
 }
+
+/*RESPONSIVIDADE TABLET */
+@media (min-width:450px) and (max-width:800px) {
+   nav {
+      position: absolute;
+      z-index: 99;
+      background-color: rgba(0, 0, 0, 0.8);
+      width: 70vw;
+      height:calc(100vh - 100px);
+      top: 100px;
+      right: 0;
+
+   }
+
+
+}
+
