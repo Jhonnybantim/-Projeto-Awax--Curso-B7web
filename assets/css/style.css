@@ -1083,6 +1083,7 @@ footer {
 }
 
 /*RESPONSIVIDADE TABLET */
+
 @media (min-width:440px) and (max-width:800px) {
 
    .menu-opener {
