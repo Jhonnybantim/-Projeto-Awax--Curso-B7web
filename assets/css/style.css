@@ -1091,6 +1091,12 @@ footer {
 /*anotaação para estudar */
 
 
+.section-services {
+ flex-wrap: wrap;
+}
 
+.section-services { 
+   min-width: 50%;
+}
 
 }
