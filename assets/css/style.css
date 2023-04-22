@@ -422,7 +422,7 @@ header {
    text-transform: uppercase;
    font-weight: 600;
    font-size: 17px;
-  margin-top: 30px;
+   margin-top: 30px;
 }
 
 .secetion-team--role {
@@ -1085,18 +1085,16 @@ footer {
    }
 
    .saction-aboutus {
-      
+
       flex-direction: column;
    }
-/*anotaação para estudar */
 
+   .section-services {
+      flex-wrap: wrap;
+   }
 
-.section-services {
- flex-wrap: wrap;
-}
-
-.section-services { 
-   min-width: 50%;
-}
+   .section-service {
+      min-width: 50%;
+   }
 
 }
