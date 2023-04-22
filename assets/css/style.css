@@ -1088,10 +1088,15 @@ footer {
       flex-direction: column;
    }
    .section-aboutus--left { 
+      text-align: center;
       flex: 1;
       margin: 0px 30px 30px 30px;
    }
-
+  
+   .section-aboutus--right{ 
+      width: auto;
+  
+     }
 
    .section-services {
       flex-wrap: wrap;
@@ -1100,9 +1105,53 @@ footer {
    .section-service {
       min-width: 50%;
    }
-   .section-aboutus--right{ 
-    width: auto;
 
+   .section-team { 
+      max-width: 580px;
    }
+/*AREA DOS PARCEIROS*/
+
+.area-icones .icone {
+    min-height: 94px;
+    min-width: 312px;
+    flex: 1;
+    margin: 24px;
+    text-align: center;
+}
+.area-icones {
+   flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .area-tabela--precos {
+      flex-wrap: wrap;
+      margin: -20px;
+  }
+  .area-tabela--precos .preco {
+   min-width: 312px;
+  }
+
+
+   .section-precos {
+      display: flex;
+      flex-wrap: wrap;
+  }
+   .section-preco {
+      min-width: 350px;
+      flex: 1;
+      text-align: center;
+      padding: 15px;
+  }
 
 }
