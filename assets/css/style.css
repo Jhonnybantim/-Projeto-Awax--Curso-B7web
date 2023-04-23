@@ -1255,12 +1255,43 @@ footer {
 }
 .section-projectes--photoarea { 
    width: 300px;
+   height: 190px;
 }
 
+.arearight-left-premium {
+   flex-direction: column;
 
+}
+.body-formulario {
+   padding: 35px;
+}
 
+.section-redessociais {
+   flex-wrap: wrap;
+   padding-left: 3px;
+   display: flex;
+   justify-content: center;
+   padding-bottom: 15px;
+   margin: auto;
 
+figure img {
+   width: 237px;
+   margin-bottom: 25px;
+}
+.premium-meio { 
+   display: none;
+}
+.rodape-body { 
+   flex-direction: column;
 
+}
+.rodape-area1 {
+   margin: auto;
+   margin-bottom: 20px;
+}
+.rodape-area { 
+   margin-top: 10px;
+}
    /*AREA DOS PARCEIROS*/
 
    .area-icones .icone {
